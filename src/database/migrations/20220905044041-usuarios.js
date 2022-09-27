@@ -20,7 +20,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      create_at: {
+      create_at: { // RENAME TO created_at
         type: Sequelize.DATE,
         allowNull: false,
       },
